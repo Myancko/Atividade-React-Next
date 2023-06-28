@@ -5,7 +5,7 @@ import Link from 'next/link'
 import User_div from '../user_div/user_div'
 import { SearchIcon } from 'lucide-react'
 
-export default function Header () {
+export default function Header_login () {
     return <header className={style.header}>
         <Link href="/book_list">
             <Image src={Logo} quality='100' alt="" width={95} height={92} />
@@ -16,8 +16,11 @@ export default function Header () {
             <button className={style.buttom}>
                 <SearchIcon width={30} height={30} color='white'/>
             </button>
+            
         </div>
 
-        <User_div />
+        <a href=""><p className={style.login}>
+            Login
+        </p></a>
     </header>
 }

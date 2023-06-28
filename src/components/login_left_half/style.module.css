@@ -1,0 +1,25 @@
+.sec
+{
+    width: 50%;
+    height: 100vh;
+    padding: 0% 5% 5% 5%;
+    background-color: #ECFAFF;
+    display: flex;
+    
+}
+.logo
+{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.logo h1{
+
+    margin: 100px;
+    color: #8239F2;
+    font-size: 46px;
+}
+.img
+{
+    margin: auto;
+}

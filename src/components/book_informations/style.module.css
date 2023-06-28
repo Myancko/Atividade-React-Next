@@ -1,0 +1,112 @@
+.main
+{
+
+    max-width: 1275px;
+    margin: 65px auto 65px auto;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 45px;
+
+}
+.bookresume
+{
+    max-width: 200px;
+    margin: 40px 0px 60px 0px;
+}
+.bookresume *
+{
+    line-height: 24px;
+}
+.bookresume h4
+{
+    color: #8239F2;
+    font-weight: 700;
+}
+.bookresume a
+{
+    color: #8239F2;
+}
+.estrelinhas *
+{
+    fill: #D9D9D9;
+    color: #D9D9D9;
+}
+.bookcover
+{
+    width: 200px;
+    height: 295px;
+    background-color: #D9D9D9;
+}
+.add_buttom
+{
+    width: 200px;
+    background-color: red;
+    padding: 8px 14px 8px 14px;
+    font-size: 17px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.add_buttom:active
+{
+    background-color: rgb(190, 3, 3);
+}
+.bookinfo
+{   
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 950px;
+    margin: 40px 0px 60px 0px;
+}
+.bookinfo h1
+{
+    color: #8239F2;
+}
+.nota 
+{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.number
+{
+    padding: 15px;
+    border-radius: 15px;
+    background-color: yellow;
+}
+
+.sl
+{
+    display: flex;
+    gap: 25px;
+}
+
+.sl *
+{
+    color: #808080;
+    font-size: 14px;
+}
+
+.discription
+{
+    max-width: 800px;
+}
+
+.comentilus
+{
+    display: flex;
+    margin-top: 25px;
+    
+    flex-direction: column;
+    gap: 20px;
+}
+.comentilus p
+{
+    font-weight: 700;
+}

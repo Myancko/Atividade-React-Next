@@ -1,0 +1,31 @@
+
+.photo
+{
+    width: 80px;
+    height: 80px;
+    border-radius: 100321321321321313px;
+    background-color:   #D9D9D9;
+}
+.comment
+{
+    display: flex;
+    gap: 15px;
+}
+.text
+{
+    padding: 8px;
+    border-radius: 5px;
+    background-color: #F0F2F5;
+}
+.like
+{
+    margin-top: 15px;
+    gap: 7px;
+    display: flex;
+    color: #4B4B4B;
+}
+.heart:active
+{
+    color: red;
+    fill: red;
+}

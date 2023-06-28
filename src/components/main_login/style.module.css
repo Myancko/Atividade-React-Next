@@ -1,0 +1,11 @@
+#main
+{
+    background-color: white;
+    height: 100vh;
+}
+.main
+{
+    display: flex;
+    align-items: center;
+    gap: 50px
+}
