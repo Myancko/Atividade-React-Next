@@ -17,7 +17,8 @@ export default async function Main_content () {
     const len = 10
     
     const {data} = await axios.get<Album>(`http://127.0.0.1:8000/api/album/`)
-    console.log(data.photos)
+    console.log(data[0].photos[1].photo)
+    
     return (
         <main>
             <div className={style.main}>
