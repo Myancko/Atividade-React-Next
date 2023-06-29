@@ -16,8 +16,8 @@ interface Album{
 export default async function Main_content () {
     const len = 10
     
-    const {data} = await axios.get<Album>(`http://127.0.0.1:8000/api/album/`)
-    console.log(data[0].photos[1].photo)
+    const {data : albuns}= await axios.get<Album[]>(`http://127.0.0.1:8000/api/album/`)
+    console.log(albuns[0].title)
     
     return (
         <main>
@@ -26,7 +26,7 @@ export default async function Main_content () {
 
                     <div className={style.main_content}>
                         
-                        {new Array(50).fill(0).map((list_image,index)=><Book imagem={list_image.title} key="index"/>)}
+                        {new Array(50).fill(0).map((list_image,index)=><Book imagem={ albuns[0].photos[1].photo} key="index"/>)}
 
                     </div>
 
