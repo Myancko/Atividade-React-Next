@@ -3,15 +3,19 @@ import Link from 'next/link'
 import style from './style.module.css'
 import { Heart } from 'lucide-react'
 
+interface Comentario {
+    text : string;
+    user ?: string;
+}
 
-export default function Comment () {
+export default function Comment ( props:Comentario ) {
 
     return (
         <section className={style.comment}>
             <div className={style.photo}></div>
             <div className={style.text}>
                 <p>
-                    Labore dasdssadsadsdsadssdsad sd sad sadsjka ds jad sjada sldsakjdbbsakjdbsakjdbsadkj sakd sk jab
+                    {props.text}
                 </p>
                 <div  className={style.like}>
                     <Heart className={style.heart}/>

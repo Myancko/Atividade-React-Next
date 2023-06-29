@@ -48,13 +48,13 @@ export default function Informations () {
                 <div className={style.comentilus}>
                     <p>Comentarios</p>
 
-                    <Comment />
-                    <Comment />
-                    <Comment />
-                    <Comment />
-                    <Comment />
-                    <Comment />
-                    <Comment />
+                    <Comment text="horrivel" />
+                    <Comment text="horrivel" />
+                    <Comment text="horriel" />
+                    <Comment text="horrivel" user = "jonathan"/>
+                    <Comment text="nunca mais lerei"/>
+                    <Comment text="nunca mais lerei"/>
+                    <Comment text="nunca mais lerei"/>
 
                 </div>
 
